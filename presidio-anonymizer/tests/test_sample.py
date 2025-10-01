@@ -12,6 +12,7 @@ def test_sample_run_anonymizer():
     result = "My name is BIP."
     start = 11
     end = 15
+    assert len(result)
     assert result
     assert start
     assert end
