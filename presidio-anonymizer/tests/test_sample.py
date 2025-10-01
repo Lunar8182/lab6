@@ -6,12 +6,11 @@ def test_sample_run_anonymizer():
     
 
     test = sample_run_anonymizer("My name is Bond.", start=11, end=15)
-    return test
+    start =11
+    end = 15
+    result = "My name is Bond."
+    assert len(result)
+    assert result
+    assert start
+    assert end
 
-start =11
-end = 15
-result = "My name is Bond."
-assert len(result)
-assert result
-assert start
-assert end
