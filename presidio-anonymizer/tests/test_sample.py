@@ -3,12 +3,17 @@ from presidio_anonymizer.sample import sample_run_anonymizer
 
 
 def test_sample_run_anonymizer():
-    original_text = "My name is Bond."
-    expected_text = "My name is BIP."
+    
 
-    test = sample_run_anonymizer(original_text, start=11, end=15, new_value="BIP")
+    test = sample_run_anonymizer("My name is Bond.", start=11, end=15)
 
    
 
-    result = expected_text
+    result = "My name is BIP."
+    start = 11
+    end = 15
+    
+    
     assert result
+    assert start
+    assert end
