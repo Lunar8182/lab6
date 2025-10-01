@@ -7,11 +7,11 @@ def test_sample_run_anonymizer():
 
     test = sample_run_anonymizer("My name is Bond.", start=11, end=15)
 
-start =11
-end = 15
+   
 
-
-result = "My name is Bond."
-assert result
-assert start
-assert end
+    result = "My name is BIP."
+    start = 11
+    end = 15
+    assert result
+    assert start
+    assert end
