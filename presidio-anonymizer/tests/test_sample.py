@@ -8,7 +8,6 @@ def test_sample_run_anonymizer():
     test = sample_run_anonymizer("My name is Bond.", start=11, end=15)
     start =11
     end = 15
-<<<<<<< HEAD
     text = "My name is Bond."
     
     assert text
@@ -16,11 +15,3 @@ def test_sample_run_anonymizer():
     assert start
     assert end
     
-=======
-    text = "My name is Bond."
-    assert text
-    assert len(text)
-    assert start
-    assert end
-
->>>>>>> lab6
