@@ -28,12 +28,7 @@ def sample_run_anonymizer(text : str, start : int, end: int):
     # ]
 
 if __name__ == "__main__": 
-    result = sample_run_anonymizer(
-    "My name is Bond",
-    11,
-    15,
+    result = sample_run_anonymizer("My name is Bond",11,15)
     
-    )
-
 
 
