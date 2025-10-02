@@ -13,4 +13,4 @@ def test_sample_run_anonymizer():
 
     assert test.items[0].start == 11
     assert test.items[0].end == 15
-    
+    pass
